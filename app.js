@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-// Levanta el servidor y escucha en el puerto especificado
+// Levanta el servidor y escucha en el puerto especificado*
 app.listen(port, () => {
   console.log(`Ser corriendo en http://localhost:${port}`);
 });
